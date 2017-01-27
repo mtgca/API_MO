@@ -46,6 +46,7 @@ Obj=SOFAupdateDimensions(Obj);
 %% Fill with attributes
 Obj.GLOBAL_ListenerShortName = CIPIC.name;
 Obj.GLOBAL_History = 'Converted from the CIPIC file format';
+Obj.GLOBAL_SourceDescription = 'Bose Acoustimass (5.8-cm cone diameter)';
 
 %% Fill the mandatory variables
   % SimpleFreeFieldHRIR 0.2
